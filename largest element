@@ -1,0 +1,12 @@
+int largestElement(vector<int> &arr, int n) {
+
+   
+    int maxElement = 0;
+
+    for (int i: arr){
+        maxElement = max(maxElement, i);
+    }
+
+    return maxElement;
+
+}
