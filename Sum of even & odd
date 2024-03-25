@@ -1,0 +1,21 @@
+Write a program to input an integer 'n' and print the sum of all its even digits and the sum of all its odd digits separately.
+
+public class Main {
+	
+	public static void main(String[] args) {
+		// Write your code here
+		int evencount,oddcount;
+		while(i>0){
+			if(i%2==0){
+			evencount++;		
+		}
+		else{
+			oddcount++;
+		}
+		i++;
+
+	}
+	System.out.println(oddcount);
+	System.out.println(evencount);
+
+}
