@@ -1,0 +1,15 @@
+
+int countDigits(int n){
+	// Write your code here.
+		    int cur = n, ans = 0;
+    while (cur > 0)
+    {
+        int onceplace = cur % 10;
+        if (onceplace != 0)
+        {
+            ans += (n % onceplace) == 0;
+        }
+        cur /= 10;
+    }
+    return ans;
+}
